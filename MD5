@@ -1,0 +1,17 @@
+873d979abaf89fb0b139cc357538dee6 *DESCRIPTION
+8cf2cf14dd9dd21fd770f0c9e704a382 *NAMESPACE
+b9e1bfc3d32d031c98da71b16b3fb820 *R/Api.R
+cec5d9edcdc39c83a5cd67d7b42b1675 *README.md
+f6e1fc1fd02097728620f5040836fe7c *man/api.Rd
+5ed2a46a96668f6b4cada7cf5c3c5b69 *man/check_content_parameters.Rd
+1977d9eca54a1fa129741f54b7d05f3a *man/check_for_multipart.Rd
+772441c239c5055038545513afe3b101 *man/check_morphology.Rd
+fd64ed1530256a5334d73ab9a618de84 *man/check_names.Rd
+f923313fb11de2553eb9ea6819053f90 *man/check_version.Rd
+14c2cd63d5594b7fdee22a9e164d270a *man/create_multipart.Rd
+8c278d9aa763c4579572b45f96d052ab *man/error_check.Rd
+e987c4f694e9fafd27e493ceed00a5f5 *man/get_endpoint.Rd
+14c8a07a35d01bb1666362d65feb748b *man/mutipart_call.Rd
+7e3959de8670b544f1e11f06df6892c9 *man/post_endpoint.Rd
+3abaa9a743bb75d8f4e5884e85ea9506 *man/to_json.Rd
+5d0efaabef7bcbe25daa8005a1dd7ad6 *vignettes/my-vignette.Rmd
