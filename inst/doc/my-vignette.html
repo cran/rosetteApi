@@ -4,15 +4,15 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="author" content="Sam Hausmann" />
+<meta name="author" content="Chris Park" />
 
-<meta name="date" content="2016-12-19" />
+<meta name="date" content="2017-06-14" />
 
 <title>Rosette API R Binding</title>
 
@@ -69,8 +69,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 
 <h1 class="title toc-ignore">Rosette API R Binding</h1>
-<h4 class="author"><em>Sam Hausmann</em></h4>
-<h4 class="date"><em>2016-12-19</em></h4>
+<h4 class="author"><em>Chris Park</em></h4>
+<h4 class="date"><em>2017-06-14</em></h4>
 
 
 
@@ -101,106 +101,106 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Parameter</th>
-<th align="left">Endpoint</th>
-<th align="left">Required</th>
+<th>Parameter</th>
+<th>Endpoint</th>
+<th>Required</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">content</td>
-<td align="left">categories, entities, language, morphology, relationships, sentences, sentiment, tokens, syntax/dependencies</td>
-<td align="left">Either content or contentUri required</td>
+<td>content</td>
+<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens, syntax/dependencies, transliteration (Yes)</td>
+<td>Either content or contentUri required</td>
 </tr>
 <tr class="even">
-<td align="left">contentUri</td>
-<td align="left">categories, entities, language, morphology, relationships, sentences, sentiment, tokens, syntax/dependencies</td>
-<td align="left">Either content or contentUri required</td>
+<td>contentUri</td>
+<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens, syntax/dependencies</td>
+<td>Either content or contentUri required</td>
 </tr>
 <tr class="odd">
-<td align="left">language</td>
-<td align="left">categories, entities, language, morphology, relationships, sentences, sentiment, tokens, name similarity</td>
-<td align="left">No</td>
+<td>language</td>
+<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens, name similarity</td>
+<td>No</td>
 </tr>
 <tr class="even">
-<td align="left">documentFile</td>
-<td align="left">categories, entities, language, morphology, relationships, sentences, sentiment, tokens</td>
-<td align="left">No</td>
+<td>documentFile</td>
+<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens</td>
+<td>No</td>
 </tr>
 <tr class="odd">
-<td align="left">name1</td>
-<td align="left">name similarity</td>
-<td align="left">Yes</td>
+<td>name1</td>
+<td>name similarity</td>
+<td>Yes</td>
 </tr>
 <tr class="even">
-<td align="left">name2</td>
-<td align="left">name similarity</td>
-<td align="left">Yes</td>
+<td>name2</td>
+<td>name similarity</td>
+<td>Yes</td>
 </tr>
 <tr class="odd">
-<td align="left">name</td>
-<td align="left">name translation</td>
-<td align="left">Yes</td>
+<td>name</td>
+<td>name translation</td>
+<td>Yes</td>
 </tr>
 <tr class="even">
-<td align="left">targetLanguage</td>
-<td align="left">name translation</td>
-<td align="left">Yes</td>
+<td>targetLanguage</td>
+<td>name translation, transliteration (No)</td>
+<td>Yes</td>
 </tr>
 <tr class="odd">
-<td align="left">entityType</td>
-<td align="left">name translation</td>
-<td align="left">No</td>
+<td>entityType</td>
+<td>name translation</td>
+<td>No</td>
 </tr>
 <tr class="even">
-<td align="left">sourceLanguageOfOrigin</td>
-<td align="left">name translation</td>
-<td align="left">No</td>
+<td>sourceLanguageOfOrigin</td>
+<td>name translation</td>
+<td>No</td>
 </tr>
 <tr class="odd">
-<td align="left">sourceLanguageOfUse</td>
-<td align="left">name translation</td>
-<td align="left">No</td>
+<td>sourceLanguageOfUse</td>
+<td>name translation</td>
+<td>No</td>
 </tr>
 <tr class="even">
-<td align="left">sourceScript</td>
-<td align="left">name translation</td>
-<td align="left">No</td>
+<td>sourceScript</td>
+<td>name translation, transliteration</td>
+<td>No</td>
 </tr>
 <tr class="odd">
-<td align="left">targetScript</td>
-<td align="left">name translation</td>
-<td align="left">No</td>
+<td>sourceLanguage</td>
+<td>transliteration</td>
+<td>Yes</td>
 </tr>
 <tr class="even">
-<td align="left">targetScheme</td>
-<td align="left">name translation</td>
-<td align="left">No</td>
+<td>targetScript</td>
+<td>name translation, transliteration</td>
+<td>No</td>
 </tr>
 <tr class="odd">
-<td align="left">options</td>
-<td align="left">relationships</td>
-<td align="left">No</td>
+<td>targetScheme</td>
+<td>name translation</td>
+<td>No</td>
 </tr>
 <tr class="even">
-<td align="left">accuracyMode</td>
-<td align="left">relationships</td>
-<td align="left">Yes</td>
+<td>options</td>
+<td>relationships</td>
+<td>No</td>
 </tr>
 <tr class="odd">
-<td align="left">explain</td>
-<td align="left">sentiment</td>
-<td align="left">No</td>
+<td>accuracyMode</td>
+<td>relationships</td>
+<td>Yes</td>
 </tr>
 <tr class="even">
-<td align="left">shortString</td>
-<td align="left">sentiment</td>
-<td align="left">No</td>
+<td>explain</td>
+<td>sentiment</td>
+<td>No</td>
 </tr>
 <tr class="odd">
-<td align="left">morphology</td>
-<td align="left">morphology</td>
-<td align="left">Yes</td>
+<td>morphology</td>
+<td>morphology</td>
+<td>Yes</td>
 </tr>
 </tbody>
 </table>
