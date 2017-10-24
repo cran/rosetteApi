@@ -12,7 +12,7 @@
 
 <meta name="author" content="Chris Park" />
 
-<meta name="date" content="2017-06-14" />
+<meta name="date" content="2017-10-24" />
 
 <title>Rosette API R Binding</title>
 
@@ -70,7 +70,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 <h1 class="title toc-ignore">Rosette API R Binding</h1>
 <h4 class="author"><em>Chris Park</em></h4>
-<h4 class="date"><em>2017-06-14</em></h4>
+<h4 class="date"><em>2017-10-24</em></h4>
 
 
 
@@ -109,22 +109,22 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <tbody>
 <tr class="odd">
 <td>content</td>
-<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens, syntax/dependencies, transliteration (Yes)</td>
+<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens, topics, syntax/dependencies, transliteration (Yes)</td>
 <td>Either content or contentUri required</td>
 </tr>
 <tr class="even">
 <td>contentUri</td>
-<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens, syntax/dependencies</td>
+<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens, topics, syntax/dependencies</td>
 <td>Either content or contentUri required</td>
 </tr>
 <tr class="odd">
 <td>language</td>
-<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens, name similarity</td>
+<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens, topics, name similarity</td>
 <td>No</td>
 </tr>
 <tr class="even">
 <td>documentFile</td>
-<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens</td>
+<td>categories, entities, language, morphology, relationships, sentences, sentiment, tokens, topics</td>
 <td>No</td>
 </tr>
 <tr class="odd">
@@ -215,7 +215,7 @@ parameters[[ <span class="st">&quot;contentUri&quot;</span> ]] &lt;-<span class=
 
 result &lt;-<span class="st"> </span><span class="kw">api</span>(<span class="st">&quot;0123456789&quot;</span>, <span class="st">&quot;categories&quot;</span>, <span class="dt">parameters =</span> parameters)
 <span class="co"># result is a list containing content and headers in native R.  Use jsonlite::toJSON() to convert to JSON format.</span>
-<span class="kw">print</span>(jsonlite::<span class="kw">toJSON</span>(result$content, <span class="dt">pretty =</span> <span class="ot">TRUE</span>)</code></pre></div>
+<span class="kw">print</span>(jsonlite<span class="op">::</span><span class="kw">toJSON</span>(result<span class="op">$</span>content, <span class="dt">pretty =</span> <span class="ot">TRUE</span>)</code></pre></div>
 </div>
 
 
@@ -225,7 +225,7 @@ result &lt;-<span class="st"> </span><span class="kw">api</span>(<span class="st
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

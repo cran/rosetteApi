@@ -1,11 +1,11 @@
-9ace4048eb17db7e0f2812057f13de13 *DESCRIPTION
+628b7d6b5348d5c9d411b8b7dbc96176 *DESCRIPTION
 e3fc50a88d0a364313df4b21ef20c29e *LICENSE
 9ac81ed8178d96ac08678a6adc7ea680 *NAMESPACE
-bf7b006c329fcfb3a8967da1391f978d *R/Api.R
-b3c8077129ee3dd29f6b46e7d2c138ad *README.md
-db55133530a6a3d039fc0a7d36ba54ce *build/vignette.rds
-3b80acacafbaeaaf00e2f71e1c2baf7c *inst/doc/my-vignette.Rmd
-ddac060679232780fedca1a329b3c9c3 *inst/doc/my-vignette.html
+efd592d82229245e0dbdf4d07903c10c *R/Api.R
+41ecdaf7b6811d13ce7448c318343576 *README.md
+d3fd7ee9ccbde5c364ee120121c23220 *build/vignette.rds
+f01256265a9fcec22d22ab7ccff52391 *inst/doc/my-vignette.Rmd
+434cd36393db1d253d70d2ed36acff2f *inst/doc/my-vignette.html
 7c725c44967e8c78fa481227830046cd *man/api.Rd
 05355aba7232962cb4d518f46a62584b *man/check_content_parameters.Rd
 2f16e37b49eb08d1f681b4fd2c512c02 *man/check_deduplication.Rd
@@ -23,4 +23,4 @@ acc806f69124c26d9b02cddbaab7149c *man/get_headers.Rd
 c8151d6f1daaa6d080a8db8a41872103 *man/serialize_parameters.Rd
 82add9f701662fc54f26d78189a29e77 *tests/testthat.R
 54dfdd3e756cf158fd29eb1105b7a3fc *tests/testthat/test_api.R
-3b80acacafbaeaaf00e2f71e1c2baf7c *vignettes/my-vignette.Rmd
+f01256265a9fcec22d22ab7ccff52391 *vignettes/my-vignette.Rmd
