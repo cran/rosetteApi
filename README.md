@@ -21,8 +21,6 @@ $ cat > installrosette.R << EOF
 $ R --no-save < installrosettte.R
 ```
 
-<<<<<<< HEAD
-=======
 If the version you are using is not [the latest from CRAN](https://cran.r-project.org/package=rosetteApi)
 or [github](https://github.com/rosette-api/R-Binding/releases),
 please check for its [**compatibilty with api.rosette.com**](https://developer.rosette.com/features-and-functions?r).
@@ -34,7 +32,6 @@ To check your installed version:
 `> packageVersion("rosetteAPI")`
 
 
->>>>>>> develop
 ## Example using the Rosette API language detection endpoint
 ```R
 library(rosetteApi)
@@ -80,7 +77,7 @@ Additional environment settings:
 `-e FILENAME=<single filename>`
 
 ## Documentation
-View the latest [documentation](https://cran.r-project.org/package=rosetteApi)
+View the latest [documentation](https://cran.r-project.org/package=rosetteApi/rosetteApi.pdf)
 
 ## Release Notes
 See the [wiki](https://github.com/rosette-api/R-Binding/wiki/Release-Notes)
