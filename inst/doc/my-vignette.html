@@ -12,7 +12,7 @@
 
 <meta name="author" content="Chris Park" />
 
-<meta name="date" content="2018-01-19" />
+<meta name="date" content="2019-03-14" />
 
 <title>Rosette API R Binding</title>
 
@@ -70,7 +70,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 <h1 class="title toc-ignore">Rosette API R Binding</h1>
 <h4 class="author"><em>Chris Park</em></h4>
-<h4 class="date"><em>2018-01-19</em></h4>
+<h4 class="date"><em>2019-03-14</em></h4>
 
 
 
@@ -89,7 +89,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </div>
 <div id="features-and-functions" class="section level2">
 <h2>Features and Functions</h2>
-<p>Visit our <a href="https://developer.rosette.com/features-and-functions#introduction">Features and Functions</a> page for a more detailed look at the functionality of the Rosette API endpoints.</p>
+<p>Visit our <a href="https://developer.rosette.com/features-and-functions">Features and Functions</a> page for a more detailed look at the functionality of the Rosette API endpoints.</p>
 </div>
 <div id="api-parameters" class="section level2">
 <h2>API Parameters</h2>
@@ -211,7 +211,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <span class="kw">library</span>(jsonlite)
 
 parameters &lt;-<span class="st"> </span><span class="kw">list</span>()
-parameters[[ <span class="st">&quot;contentUri&quot;</span> ]] &lt;-<span class="st"> &quot;http://www.onlocationvacations.com/2015/03/05/the-new-ghostbusters-movie-begins-filming-in-boston-in-june/&quot;</span>
+parameters[[ <span class="st">&quot;contentUri&quot;</span> ]] &lt;-<span class="st"> &quot;https://onlocationvacations.com/2015/03/05/the-new-ghostbusters-movie-begins-filming-in-boston-in-june/&quot;</span>
 
 result &lt;-<span class="st"> </span><span class="kw">api</span>(<span class="st">&quot;0123456789&quot;</span>, <span class="st">&quot;categories&quot;</span>, <span class="dt">parameters =</span> parameters)
 <span class="co"># result is a list containing content and headers in native R.  Use jsonlite::toJSON() to convert to JSON format.</span>
