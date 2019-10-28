@@ -1,8 +1,8 @@
 Package: rosetteApi
 Type: Package
 Title: 'Rosette' API
-Version: 1.12.1
-Date: 2019-03-14
+Version: 1.14.3
+Date: 2019-10-25
 Authors@R: c(
     person("Chris", "Park", role = "aut"),
     person("Sam", "Hausmann", role = "aut"),
@@ -19,9 +19,9 @@ Suggests: knitr, rmarkdown, testthat
 URL: https://developer.rosette.com
 BugReports: https://developer.rosette.com/support-ticket
 VignetteBuilder: knitr
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2019-03-14 21:29:46 UTC; rstudio
+Packaged: 2019-10-28 19:26:53 UTC; rstudio
 Author: Chris Park [aut],
   Sam Hausmann [aut],
   Hannah Gaudet [ctb],
@@ -30,4 +30,4 @@ Author: Chris Park [aut],
   Basis Technology Corp. [cph]
 Maintainer: Seth Gransky <seth@basistech.com>
 Repository: CRAN
-Date/Publication: 2019-03-15 23:20:03 UTC
+Date/Publication: 2019-10-28 20:00:02 UTC
