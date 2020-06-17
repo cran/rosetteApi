@@ -4,8 +4,7 @@
 \alias{get_headers}
 \title{Helper to combine custom headers with the default ones}
 \usage{
-get_headers(user_key, content_type = "application/json",
-  custom_headers = NULL)
+get_headers(user_key, content_type = "application/json", custom_headers = NULL)
 }
 \arguments{
 \item{user_key}{- Rosette API authentication key}

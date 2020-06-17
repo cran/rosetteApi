@@ -4,8 +4,13 @@
 \alias{get_endpoint}
 \title{httr::GET request to specified Rosette API endpoint}
 \usage{
-get_endpoint(user_key, endpoint, url, custom_headers = NULL,
-  url_parameters = NULL)
+get_endpoint(
+  user_key,
+  endpoint,
+  url,
+  custom_headers = NULL,
+  url_parameters = NULL
+)
 }
 \arguments{
 \item{user_key}{- Rosette API authentication key}

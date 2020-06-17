@@ -5,8 +5,14 @@
 \title{api wrapper function that checks for a user_key and determines the
 Rosette API endpoint to be utilized}
 \usage{
-api(user_key, endpoint, parameters = FALSE, custom_headers = NULL,
-  url_parameters = NULL, url = "https://api.rosette.com/rest/v1/")
+api(
+  user_key,
+  endpoint,
+  parameters = FALSE,
+  custom_headers = NULL,
+  url_parameters = NULL,
+  url = "https://api.rosette.com/rest/v1/"
+)
 }
 \arguments{
 \item{user_key}{- Rosette API authentication key}

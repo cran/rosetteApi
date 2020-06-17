@@ -1,3 +1,6 @@
+# rosetteApi 1.14.4 (2020-06-17)
+- Support unfielded addresses and update address example for /address-similarity
+
 # rosetteApi 1.14.3 (2019-10-25)
 - New Address Similarity endpoint `/address-similarity`
 - New Address Similarity example.

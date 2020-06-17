@@ -4,8 +4,14 @@
 \alias{post_endpoint}
 \title{httr::POST request to specified Rosette API endpoint}
 \usage{
-post_endpoint(user_key, parameters, endpoint, url, custom_headers = NULL,
-  url_parameters = NULL)
+post_endpoint(
+  user_key,
+  parameters,
+  endpoint,
+  url,
+  custom_headers = NULL,
+  url_parameters = NULL
+)
 }
 \arguments{
 \item{user_key}{- Rosette API authentication key}
